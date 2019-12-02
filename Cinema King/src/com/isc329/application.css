@@ -1,0 +1,133 @@
+.root {
+    -fx-font-size: 14px;
+    -fx-background-color: #0f171e;
+}
+
+.button {
+	-fx-background-color: #00a0d6;
+	-fx-font-size: 14px;
+    -fx-font-family: 'graphite';
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.button:hover{
+	-fx-background-color: #29B6F6;
+}
+
+.text-field {
+	-fx-background-color: #425265;
+	-fx-text-fill: white;
+	-fx-font-size: 14px;
+	-fx-font-family: 'graphite';
+	-fx-font-weight: bold;
+	-fx-prompt-text-fill: #e3e3e3;
+}
+
+.hyperlink { 
+	-fx-text-fill: #03A9F4;
+	-fx-font-family: 'graphite';
+}
+
+.list-view .scroll-bar:vertical {
+    -fx-scale-x: 0;
+}
+
+.list-view .scroll-bar:horizontal {
+    -fx-scale-x: 0;
+}
+
+.scroll-pane { 
+	-fx-background-color: #0f171e;
+	-fx-background: #0f171e;
+}
+.scroll-pane .scroll-bar:vertical {
+	-fx-background-color: #0f171e;
+}
+
+.scroll-pane > .corner{
+	-fx-background-color: #0f171e;
+}
+
+.scroll-bar:vertical .thumb{
+    -fx-background-color: #2e2e2e;
+}
+
+.list-view {
+	-fx-control-inner-background: #0f171e;
+	-fx-selection-bar: #0f171e;
+	-fx-border-color: #0f171e;
+}
+
+.list-view > .corner {
+	-fx-background-color: #0f171e;
+}
+
+.grid-pane {
+	-fx-background-color: #0f171e;
+}
+
+#preview {
+	-fx-background-color: #121212;
+}
+
+#synopsis {
+	-fx-text-fill: white;
+	-fx-font-family: 'graphite';
+	-fx-font-size: 15px;
+	-fx-font-weight: bold;
+}
+
+#numRatings{
+	-fx-text-fill: #29B6F6;
+	-fx-font-family: 'graphite';
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;
+}
+
+.rating > .container > .button {
+	-fx-background-color: #0f171e;
+}
+
+#labels {
+	-fx-text-fill: #8197a4;
+	-fx-font-family: 'graphite';
+	-fx-font-size: 17px;
+	-fx-font-weight:bold;
+}
+
+#title {
+	-fx-text-fill: white;
+	-fx-font-family: 'graphite';
+	-fx-font-size: 35px;
+	-fx-font-weight:bold;
+}
+
+#value {
+	-fx-text-fill: #29B6F6;
+	-fx-font-family: 'graphite';
+	-fx-font-size: 15px;
+	-fx-font-weight:bold;
+}
+
+#searchPane {
+	-fx-text-fill: rgb(37, 46, 57);
+	-fx-background-color: #0f171e;
+}
+
+#searchField {
+  -fx-background-image:url('magnifying_glass.png');
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: right center;
+}
+
+#X {
+	-fx-text-fill: white;
+	-fx-font-size: 40;
+	-fx-font-family: 'graphite';
+}
+
+#image:hover{
+	-fx-effect: dropshadow(two-pass-box, rgba(16,71,96,0.8), 30, .3, 0, 0);
+}
+

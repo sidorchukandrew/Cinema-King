@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.isc329.view.CreateAccountViewController">
+   <children>
+      <PasswordField fx:id="passwordField" layoutX="387.0" layoutY="356.0" prefHeight="51.0" prefWidth="454.0" promptText="Password" />
+      <PasswordField fx:id="passwordConfirmationField" layoutX="387.0" layoutY="400.0" prefHeight="51.0" prefWidth="454.0" promptText="Enter your password again" />
+      <TextField fx:id="nameField" layoutX="387.0" layoutY="276.0" prefHeight="51.0" prefWidth="454.0" promptText="Name" />
+      <TextField fx:id="emailField" layoutX="387.0" layoutY="316.0" prefHeight="51.0" prefWidth="454.0" promptText="Email" />
+      <Button fx:id="createButton" layoutX="387.0" layoutY="459.0" mnemonicParsing="false" onAction="#onMouseClick" prefHeight="51.0" prefWidth="454.0" text="Continue" />
+      <Label fx:id="pleaseCreatePassword" layoutX="584.0" layoutY="361.0" />
+      <Label fx:id="passwordsDoNotMatch" layoutX="584.0" layoutY="405.0" />
+      <Hyperlink fx:id="back" layoutX="33.0" layoutY="27.0" text="&lt; Back To Sign In" />
+   </children>
+</AnchorPane>
